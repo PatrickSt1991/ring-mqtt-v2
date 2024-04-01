@@ -1,5 +1,10 @@
 ![ring-mqtt-logo](https://raw.githubusercontent.com/PatrickSt1991/ring-mqtt-v2/main/images/github.jpg)
 
+## Credits where credits are due
+As this is a fork of tsightler, all credits must go to him and the people who helped in the original project.
+
+I only created a new feature that suited my requirements.
+
 ## About
 Ring LLC sells security related products such as video doorbells, security cameras, alarm systems and smart lighting devices.  The ring-mqtt project uses the Ring API (the same one used by Ring official apps) to act as a bridge between these devices and an local MQTT broker, thus allowing any automation tools that can leverage the open standards based MQTT protocol to effectively integrate with these devices.  The project also supports video streaming by providing an RTSP gateway service that allows any media client supporting the RTSP protocol to connect to a Ring camera livestream or to play back recorded events (Ring Protect subscription required for event recording playback).  Please review the full list of [supported devices and features](https://github.com/tsightler/ring-mqtt/wiki#supported-devices-and-features) for more information on current capabilities.
 
